@@ -1,3 +1,4 @@
+shopt -s expand_aliases
 alias gst='git status' 
 alias gsu='git status -uno'
 alias ga='git add'
@@ -12,5 +13,5 @@ alias gd='git diff'
 alias gds='git diff --staged'
 alias glo='git log --oneline | head -10'
 function gs() {
-git show 
+git show `git log --oneline | grep "$1" | awk '{print $1}'`
 }
