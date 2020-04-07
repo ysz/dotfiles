@@ -26,14 +26,14 @@ filetype plugin indent on    " required
 Bundle 'takac/vim-hardtime'
 
 let g:hardtime_default_on = 1
-color hhazure
+" color hhazure
 
 set incsearch
 set hlsearch
 
 syntax enable
 set background=light
-colorscheme solarized
+" colorscheme solarized
 
 let g:EasyMotion_do_mapping = 0 " Disable default mappings
 

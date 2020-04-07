@@ -1,3 +1,5 @@
 setxkbmap -layout us -variant dvorak
 xmodmap .xmodmap
-fvwm
+# fvwm
+gnome-shell
+
